@@ -4,8 +4,9 @@ class AppColor {
   Color primary = Color(0xff3A7FD5);
   Color grey = Color(0xffF3F7F8);
   Color greySubtitle = Color(0xff6A7483);
-  Color greySubtitleHome = Color(0xff8E8E8E);
+  Color greyText = Color(0xff8E8E8E);
   Color blackLogin = Color(0xff1A1F26);
   Color greyborder = Color(0xffd6d6d6);
   Color greyHintText = Color(0xffaaaaaa);
+  Color blackLabelText = Color(0xff282828);
 }
