@@ -13,7 +13,8 @@
             "name": "git_project (chrome mode)",
             "request": "launch",
             "type": "dart",
-            "deviceId": "Chrome"
+            "deviceId": "Chrome",
+	    "args": ["--web-port","5000",]
         },
         {
             "name": "git_project (profile mode)",

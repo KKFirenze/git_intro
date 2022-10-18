@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
     // Get token untuk test FCM
     final tokenFcm = await FirebaseMessaging.instance.getToken();
 
-    print(tokenFcm);
+    print("tokenFcm: $tokenFcm");
 
     RemoteMessage? initialMessage =
         await FirebaseMessaging.instance.getInitialMessage();
